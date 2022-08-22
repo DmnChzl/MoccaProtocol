@@ -1,0 +1,32 @@
+{
+  "name": "mocca-app",
+  "version": "0.0.1",
+  "description": "Mocca App",
+  "author": "DmnChzl <dmnchzl@pm.me>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "vitest",
+    "postinstall": "node ./fix-jest-dom.mjs"
+  },
+  "dependencies": {
+    "axios": "~0.27.2",
+    "date-fns": "~2.29.2",
+    "solid-app-router": "~0.4.2",
+    "solid-js": "~1.4.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "~5.16.5",
+    "autoprefixer": "~10.4.8",
+    "jsdom": "~20.0.0",
+    "postcss": "~8.4.16",
+    "solid-testing-library": "~0.3.0",
+    "tailwindcss": "~3.1.8",
+    "typescript": "~4.7.4",
+    "vite": "~3.0.9",
+    "vite-plugin-solid": "~2.3.0",
+    "vitest": "~0.22.1"
+  },
+  "license": "Beerware"
+}

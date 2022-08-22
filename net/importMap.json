@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "encoding/": "https://deno.land/std@0.152.0/encoding/",
+    "flags/": "https://deno.land/std@0.152.0/flags/",
+    "hash/": "https://deno.land/std@0.152.0/hash/",
+    "http/": "https://deno.land/std@0.152.0/http/",
+    "testing/": "https://deno.land/std@0.152.0/testing/"
+  }
+}

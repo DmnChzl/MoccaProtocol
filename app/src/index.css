@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer components {
+  /* FAB */
+  .fab {
+    @apply absolute p-5 right-6 bottom-6 bg-blue-600 hover:bg-blue-500 focus:bg-blue-400 rounded-full shadow-md;
+  }
+  
+  /* Modal */
+  .modal {
+    @apply relative flex flex-col flex-grow-0 flex-shrink p-3 my-auto mx-3 sm:mx-auto w-full sm:w-3/4 md:w-2/3 lg:w-1/2 bg-white text-gray-800 border border-gray-200 rounded-md shadow-md;
+  }
+
+  .modal__action {
+    @apply p-2 m-3 w-36 font-semibold tracking-wider rounded-md shadow-md enabled:shadow-md focus:shadow-none;
+  }
+
+  .modal__action-primary-info {
+    @apply bg-blue-600 hover:bg-blue-500 focus:bg-blue-600 text-white focus:ring-2 ring-offset-2 focus:ring-blue-600 disabled:bg-blue-400;
+  }
+
+  .modal__action-primary-warn {
+    @apply bg-red-600 hover:bg-red-500 focus:bg-red-600 text-white focus:ring-2 ring-offset-2 focus:ring-red-600 disabled:bg-red-400;
+  }
+
+  .modal__action-secondary-info {
+    @apply border-2 border-blue-600 hover:border-blue-500 text-blue-600 hover:text-blue-500;
+  }
+
+  .modal__action-secondary-warn {
+    @apply border-2 border-red-600 hover:border-red-500 text-red-600 hover:text-red-500;
+  }
+
+  /* TextField */
+  .text-field__input {
+    @apply py-2 mx-3 w-full text-gray-400 focus:text-gray-800 border border-gray-200 outline-blue-600 rounded shadow;
+  }
+  
+  /* UploadFile */
+  .upload-file__label {
+    @apply flex flex-col p-3 h-full border-2 border-dashed border-gray-800 hover:border-blue-600 focus:border-blue-400 rounded cursor-pointer
+  }
+
+  .upload-file__icon {
+    @apply m-auto text-gray-800 group-hover:text-blue-600 group-focus:text-blue-400
+  }
+}
+
+@layer utilities {
+  .-shadow {
+    box-shadow: 0 -1px 3px 0 rgb(0 0 0 / 0.1), 0 -1px 2px -1px rgb(0 0 0 / 0.1);
+  }
+  
+  .-shadow-md {
+    box-shadow: 0 -4px 6px -1px rgb(0 0 0 / 0.1), 0 -2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+}
