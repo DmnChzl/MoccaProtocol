@@ -5,8 +5,8 @@ import {
   ClickableItemSkeleton
 } from '../components/ClickableItem';
 import * as Constants from '../constants';
-import * as PeerService from '../services/peerService';
-// import * as PeerService from '../services/fakeService';
+// import * as PeerService from '../services/peerService';
+import * as PeerService from '../services/fakeService';
 import { formatSize } from '../utils';
 import { TopBar } from './TopBar';
 

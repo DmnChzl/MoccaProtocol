@@ -4,8 +4,8 @@ import { TextField } from '../components/TextField';
 import * as Constants from '../constants';
 import { IconEye, IconEyeOff, IconKey, IconUser } from '../icons';
 import { Logo } from '../icons/Logo';
-import * as PeerService from '../services/peerService';
-// import * as PeerService from '../services/fakeService';
+// import * as PeerService from '../services/peerService';
+import * as PeerService from '../services/fakeService';
 import { useAppContext } from '../AppContext';
 
 export const LoginView = props => {

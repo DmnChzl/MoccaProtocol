@@ -4,8 +4,8 @@ import { FlatItem } from '../components/FlatItem';
 import { FloatingActionButton } from '../components/FloatingActionButton';
 import * as Constants from '../constants';
 import { IconDownload, IconFile, IconUpload } from '../icons';
-import * as FileService from '../services/fileService';
-// import * as FileService from '../services/fakeService';
+// import * as FileService from '../services/fileService';
+import * as FileService from '../services/fakeService';
 import { createDownloadLink, formatSize } from '../utils';
 import { TopBar } from './TopBar';
 

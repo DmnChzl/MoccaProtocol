@@ -23,10 +23,10 @@ import {
   IconUnlock
 } from '../icons';
 import { ModalWrapper } from '../ModalWrapper';
-import * as FileService from '../services/fileService';
-// import * as FileService from '../services/fakeService';
-import * as PeerService from '../services/peerService';
-// import * as PeerService from '../services/fakeService';
+// import * as FileService from '../services/fileService';
+import * as FileService from '../services/fakeService';
+// import * as PeerService from '../services/peerService';
+import * as PeerService from '../services/fakeService';
 import { createDownloadLink, formatSize, sortBy } from '../utils';
 import { FlatView } from './FlatView';
 import { TopBar } from './TopBar';

@@ -6,8 +6,8 @@ import {
 } from '../components/ClickableItem';
 import * as Constants from '../constants';
 import { IconFile } from '../icons';
-import * as PeerService from '../services/peerService';
-// import * as PeerService from '../services/fakeService';
+// import * as PeerService from '../services/peerService';
+import * as PeerService from '../services/fakeService';
 import { formatSize, sortBy } from '../utils';
 import { TopBar } from './TopBar';
 

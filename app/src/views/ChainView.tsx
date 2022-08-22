@@ -2,8 +2,8 @@ import { useNavigate } from 'solid-app-router';
 import { createEffect, createResource, Show } from 'solid-js';
 import { useAppContext } from '../AppContext';
 import { CardItem, CardItemSkeleton } from '../components/CardItem';
-import * as ChainService from '../services/chainService';
-// import * as ChainService from '../services/fakeService';
+// import * as ChainService from '../services/chainService';
+import * as ChainService from '../services/fakeService';
 import { TopBar } from './TopBar';
 
 export const ChainView = () => {
